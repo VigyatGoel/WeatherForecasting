@@ -12,7 +12,7 @@ def mac():
                 os.system("say 'Thanks for using this application'")
                 break
 
-            url = f"https://api.weatherapi.com/v1/current.json?key=bb77e16095744709bba171327230807&q={city}"
+            url = ""
 
             r = requests.get(url)
 
